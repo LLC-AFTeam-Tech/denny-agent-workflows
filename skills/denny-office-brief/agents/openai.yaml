@@ -1,0 +1,4 @@
+interface:
+  display_name: "Denny Office Brief"
+  short_description: "Turn a request into a scoped Office assignment"
+  default_prompt: "Use $denny-office-brief to prepare an Office assignment with clear scope and acceptance criteria."

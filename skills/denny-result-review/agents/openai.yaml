@@ -1,0 +1,4 @@
+interface:
+  display_name: "Denny Result Review"
+  short_description: "Review an agent result against its acceptance criteria"
+  default_prompt: "Use $denny-result-review to compare this agent result with the original assignment and identify the next action."

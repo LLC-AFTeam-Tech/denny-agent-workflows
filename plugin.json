@@ -1,0 +1,57 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "denny-agent-workflows",
+  "version": "1.0.0",
+  "description": "Prepare scoped Denny Office assignments, verified context handoffs between coding-agent sessions, and evidence-based reviews of agent results.",
+  "author": {
+    "name": "AFTEAM",
+    "email": "info@afteam.tech",
+    "url": "https://afteam.tech/"
+  },
+  "homepage": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows",
+  "repository": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows",
+  "license": "MIT",
+  "keywords": [
+    "denny",
+    "agent-workflows",
+    "handoff",
+    "project-management",
+    "claude-code",
+    "codex"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Denny Agent Workflows",
+        "shortDescription": "Agent briefs and handoffs",
+        "longDescription": "Prepare scoped Denny Office assignments, carry verified context between coding-agent sessions, and review delivered work against acceptance criteria. Three skills produce Markdown briefs, handoffs and result reviews from inputs supplied by the user. This is a skills-only package: it does not submit Office records, start agents or control the native Mac application. Made in Russia by AFTEAM.",
+        "developerName": "AFTEAM",
+        "category": "Productivity",
+        "capabilities": [
+          "Draft Office assignments",
+          "Prepare agent handoffs",
+          "Review agent results"
+        ],
+        "websiteURL": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows",
+        "supportURL": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows/blob/main/PRIVACY.md",
+        "defaultPrompt": [
+          "Turn this request into a Denny Office assignment with acceptance criteria.",
+          "Prepare a handoff to the next agent, preserving failed checks and blockers.",
+          "Review this agent result against the brief and draft a rework request if needed."
+        ],
+        "composerIcon": "./assets/composer.png",
+        "logo": "./assets/icon.png"
+      },
+      "publication": {
+        "release_notes": "Initial workflow skills for Office briefs, session handoffs and result reviews.",
+        "translations": {
+          "ru-RU": {
+            "subtitle": "Поручения и контекст агентов",
+            "description": "Подготовка поручений для Denny Office, передача проверенного контекста между сессиями агентов и разбор результатов по критериям приёмки. Пакет создаёт документы и не отправляет задания или команды в приложение. Сделано в России командой AFTEAM."
+          }
+        }
+      }
+    }
+  }
+}

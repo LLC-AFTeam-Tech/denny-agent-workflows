@@ -1,0 +1,4 @@
+interface:
+  display_name: "Denny Agent Handoff"
+  short_description: "Carry verified context to the next coding agent"
+  default_prompt: "Use $denny-agent-handoff to prepare a concise handoff for the next agent without losing blockers or test evidence."

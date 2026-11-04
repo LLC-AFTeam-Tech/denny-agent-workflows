@@ -1,0 +1,22 @@
+{
+  "name": "denny-agent-workflows",
+  "version": "1.0.0",
+  "description": "Prepare scoped Denny Office assignments, verified context handoffs between coding-agent sessions, and evidence-based reviews of agent results.",
+  "author": {
+    "name": "AFTEAM",
+    "email": "info@afteam.tech",
+    "url": "https://afteam.tech/"
+  },
+  "homepage": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows",
+  "repository": "https://github.com/LLC-AFTeam-Tech/denny-agent-workflows",
+  "license": "MIT",
+  "keywords": [
+    "denny",
+    "agent-workflows",
+    "handoff",
+    "project-management",
+    "claude-code",
+    "codex"
+  ],
+  "displayName": "Denny Agent Workflows"
+}
